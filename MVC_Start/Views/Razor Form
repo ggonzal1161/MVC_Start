@@ -1,0 +1,13 @@
+@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Find your records";
+}
+
+<form method="post" asp-page="Index">
+  <div class="form-group">
+    <label asp-for="ID"></label>
+    <input asp-for="ID" class="form-control" placeholder="Enter ID" autocomplete="off" />    
+  </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>

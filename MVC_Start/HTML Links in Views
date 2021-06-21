@@ -1,0 +1,19 @@
+@{
+ViewBag.Title = "Index";
+}
+
+<h1>Links</h1>
+<table cellspacing="15px">
+<tr>
+<td>@Html.ActionLink("Home", "Home Page")</td>
+</tr>
+
+<tr>
+<td>@Html.ActionLink("Contact Us", "Contact")</td>
+</tr>
+
+<tr>
+<td>@Html.ActionLink("About", "About Us")</td>
+</tr>
+
+</table>
